@@ -1,5 +1,4 @@
 import background from "../assets/images/background1.jpg";
-import Imagetab from "./Imagetab";
 import Portfolio from "./Portfolio";
 
 const Hero = () => {
