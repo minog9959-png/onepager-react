@@ -134,7 +134,7 @@ const handleSubmit = async (e) => {
 
               <div className="flex items-center gap-4">
                 <FaMapMarkerAlt className="text-cyan-400 text-xl" />
-                <span>Lorem Ipsum Street</span>
+                <span>US,Kingdom h-222 block-A Street</span>
               </div>
 
               <div className="flex items-center gap-4">

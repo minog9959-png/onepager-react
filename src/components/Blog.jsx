@@ -17,27 +17,32 @@ function Blog() {
       title: "Mobile Friendly Dashboard Now Launched!",
       date: "19 Oct",
       comments: 10,
+      description:"This dashboard managed heavy data of mobile, 50mb data handled ata a time and transfer data",
     },
     {
       id: 2,
       image: image2,
       title: "Creative Logo Design Inspiration",
       date: "19 Oct",
-      comments: 10,
+      comments: 20,
+      description:"Logo world, inspiration of design , creativity, style, manage data properly with design format",
     },
     {
       id: 3,
       image: image3,
       title: "Modern Business Card Design Ideas",
       date: "19 Oct",
-      comments: 10,
+      comments: 12,
+      description:"Modern Design Card available here for you! Modern Card established your business and growth!",
+
     },
     {
       id: 4,
       image: image4,
       title: "Golden Gesture Branding Project",
       date: "19 Oct",
-      comments: 10,
+      comments: 15,
+      description:"Golden Branding Project its project is premium and excellent quality 100%",
     },
   ];
 
@@ -107,8 +112,7 @@ function Blog() {
 
                 <p className="text-gray-500 leading-8">
 
-                  Sed non mauris vitae erat consequat auctor eu in elit.
-                  Class aptent taciti sociosqu ad litora torquent.
+               {blog.description}
 
                 </p>
 

@@ -16,7 +16,7 @@ function Footer() {
 
         <div className="mb-6 md:mb-0">
           <p className="text-white text-xl">
-            © 2014 OnePager, All Rights Reserved
+            © 2024 DigitalAgency-OnePager, All Rights Reserved
           </p>
         </div>
 

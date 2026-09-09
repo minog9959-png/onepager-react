@@ -8,7 +8,7 @@ const ServiceCard = ({ service }) => {
       <div
         className="w-35 h-24 bg-cyan-400 flex justify-center items-center"
         style={{
-          clipPath: "polygon(28% 0%,100% 0%,72% 100%,0% 100%)",
+          clipPath: "polygon(30% 0%,100% 0%,80% 100%,0% 100%)",
         }}
       >
         <Icon className="text-white text-3xl" />
@@ -21,7 +21,8 @@ const ServiceCard = ({ service }) => {
         </h3>
 
    <p className="text-gray-400 text-[18px] leading-8 mt-3">
-  Duis sed odio sit amet nibh vulputate cursus a sit amet mauris morbi accumsan.
+
+    {service.description}
 </p>
 
       </div>
